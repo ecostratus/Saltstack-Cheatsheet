@@ -13,3 +13,5 @@ Which will return the docs for the pkg module on minion1
 To get information about the available commands a minion can run, use
 
 `salt 'minion1' sys.list_functions pkg`
+
+`salt '*' pillar.items`
